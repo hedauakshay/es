@@ -1,0 +1,239 @@
+body,
+html{
+	width: 100%;height: 100%;
+	-webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.App{
+}
+.App-logo{
+	animation: App-logo-spininfinite20slinear;
+	height: 80px;
+}
+.App-header{
+	height: 50px;
+	padding: 10px;
+	background-color:#24292E;
+	color: white;
+}
+.App-filters{
+	vertical-align: middle;
+	background-color: #0B5D94;
+	color: white;
+}
+.filterdiv{
+	width: 100%;
+	float: left;
+	padding:0 3px 3px 3px;
+	background-color:#0B5D94;
+}
+.App-title{
+	font-size: 1.5em;
+}
+.App-content{
+	color: white;
+}
+.App-data{
+	color: white;
+	overflow:scroll;
+}
+
+.ui.fluid.dropdown {
+	margin-top:3px;
+}
+
+.ui .bottom .attached .segment .active .tab {
+	width:100%;
+}
+
+a {
+	cursor: pointer;
+}
+
+#custom-search-input {
+	margin:0;
+	margin-top: 10px;
+	padding: 0;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#custom-search-input .search-query {
+	padding-right: 3px;
+	padding-right: 4px \9;
+	padding-left: 3px;
+	padding-left: 4px \9;
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+	margin-bottom: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#custom-search-input button {
+	border: 0;
+	background: none;
+	/** belows styles are working good */
+	padding: 2px 5px;
+	margin-top: 2px;
+	left: 5px;
+	position: relative;
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+	margin-bottom: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:#D9230F;
+}
+
+.search-query:focus + button {
+	z-index: 3;   
+}
+
+	
+.glyphicon-star {
+	font-size: 15px;
+	color: hsl(36, 93%, 63%);
+}
+
+.well {
+    height: 170px;
+}
+
+.col {
+	color: #01A185;
+}
+
+.notify-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	align-content: flex-start;
+	position: absolute;
+	top: 70px;
+	right: 0;
+  }
+   
+  .notify-item {
+	width: 250px;
+	margin: 5px 10px;
+	color: #FFF;
+	border-radius: 5px;
+  }
+   
+  .notify-item:hover {
+	opacity: 0.8;
+	box-shadow: 0 0 10px 0 rgb(15, 15, 15);
+  }
+   
+  .notify-item > p {
+	font-family: 'Lora', serif;
+	margin: 10px;
+	opacity: .8;
+  }
+   
+  .notify-item.success {
+	background-color: rgba(42, 180, 42, 0.479);
+  }
+   
+  .notify-item.error {
+	background-color: rgba(203, 100, 94, 0.8);
+  }
+   
+  .notify-item.info {
+	background-color: rgba(33, 150, 243, 0.8);
+  }
+   
+  .notify-title {
+	font-weight: 700;
+  }
+
+  .btn-block {
+	  border-radius: 5px 5px 0px 0px !important;
+  }
+
+  .panel-default {
+	  border-radius: 0px 0px 5px 5px !important;
+  }
+
+  a {
+	  text-decoration: none;
+  }
+	/*	--------------------------------------------------
+		:: Table Filter
+		-------------------------------------------------- */
+    	.behclick-panel  .list-group {
+    		margin-bottom: 0px;
+		}
+		.behclick-panel .list-group-item:first-child {
+			border-top-left-radius:0px;
+			border-top-right-radius:0px;
+		}
+		.behclick-panel .list-group-item {
+			border-right:0px;
+			border-left:0px;
+		}
+		.behclick-panel .list-group-item:last-child{
+			border-bottom-right-radius:0px;
+			border-bottom-left-radius:0px;
+		}
+		.behclick-panel .list-group-item {
+			padding: 5px;
+		}
+		.behclick-panel .panel-heading {
+			/* 				padding: 10px 15px;
+                            border-bottom: 1px solid transparent; */
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+			border-bottom: 1px solid darkslategrey;
+		}
+		.behclick-panel .panel-heading:last-child{
+			/* border-bottom: 0px; */
+		}
+		.behclick-panel {
+			border-radius: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			border-bottom: 0px;
+			box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+		}
+		.behclick-panel .radio, .checkbox {
+			margin: 0px;
+			padding-left: 10px;
+		}
+		.behclick-panel .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+			outline: none;
+		}
+		.behclick-panel .panel-body > .panel-heading{
+			padding:10px 10px;
+		}
+		.behclick-panel .panel-body {
+			padding: 0px;
+		}
+		 /* unvisited link */
+		.behclick-panel a:link {
+		    text-decoration:none;
+		}
+
+		/* visited link */
+		.behclick-panel a:visited {
+		    text-decoration:none;
+		}
+
+		/* mouse over link */
+		.behclick-panel a:hover {
+		    text-decoration:none;
+		}
+
+		/* selected link */
+		.behclick-panel a:active {
+		    text-decoration:none;
+		}

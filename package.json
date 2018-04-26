@@ -1,0 +1,36 @@
+{
+  "name": "matrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "elasticsearch": "^14.2.2",
+    "material-ui": "^0.20.0",
+    "query-string": "^5.0.1",
+    "react": "^16.1.0",
+    "react-composite": "^1.0.0",
+    "react-dom": "^16.1.0",
+    "react-file-viewer": "^0.4.0",
+    "react-notifications": "^1.4.3",
+    "react-notify": "^3.0.0",
+    "react-pdf-js": "^3.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.17",
+    "request-promise": "^4.2.2",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.76.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
